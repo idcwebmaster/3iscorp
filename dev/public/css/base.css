@@ -5,6 +5,7 @@ body {
   line-height: 1.7;
   margin: 0;
   padding: 30px;
+  color: #333;
 }
 
 a {
@@ -56,7 +57,91 @@ h4 {
 p, ul {
   margin: 15px 0;
 }
-
+li{
+  list-style-type: none;
+}
 ul {
   padding-left: 30px;
 }
+
+.main{
+  width: 985px;
+  margin: 0 auto;
+}
+
+.header-section{
+  width: 100%;
+  height: 110px;
+}
+
+.logoImage{
+  float: left;
+  width:115px;
+}
+
+.headerTitle{
+  display: inline-block;
+  width: 110px;
+  padding-top: 5px;
+}
+
+.headerTitle h2{
+  margin-bottom: 5px;
+}
+
+.nav-section{
+  display: block;
+  width: 100%;
+  height: 40px;
+}
+
+.nav-section li{
+  float: left;
+  margin: 5px 25px;
+}
+
+.nav-section li a{
+  color:#333;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.nav-section li a:hover{
+  color: #b24727;
+}
+
+.centerpiece-section{
+  width: 400px;
+  float: left;
+}
+
+.cp-widget-section{
+  display: inline-block;
+  width: 520px;
+  padding: 45px 20px 0 20px;
+}
+
+.cp-widget-section li{
+  float: left;
+  margin: 5px 25px;
+}
+
+.cp-widget-section li a{
+  color:#d69437;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.cp-blurb-section{
+  padding: 0 20px 60px 20px;
+  text-align: center;
+}
+
+.column-left-section, .column-middle-section, .column-right-section{
+  width: 295px;
+  margin: 15px;
+  float: left;
+}
+
