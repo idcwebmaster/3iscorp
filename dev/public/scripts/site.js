@@ -15,7 +15,6 @@ var Site = React.createClass({
         <ColumnLeft />
         <ColumnMiddle />
         <ColumnRight />
-
         <OurStory />
         <IncomeTax />
         <Insurance />
@@ -32,15 +31,15 @@ var Header = React.createClass({
       <div className="header-section">
         <div className="logoImage">
           <a href="/">
-            <img src="img/3ISLogoGold.png" alt="logo" width="100px" />
+            <img src="../img/3ISLogoGold.png" alt="logo" width="100px" />
           </a>
         </div>
         <div className="headerTitle">
           <h2>
-            3IS, Inc 
+            3IS,&nbsp;Inc. 
           </h2>
           <span>
-             Think Success
+             Think&nbsp;Success
           </span>
         </div>
       </div>
@@ -59,7 +58,7 @@ var Nav = React.createClass({
           <li><a href="/income-tax">Income Tax</a></li>
           <li><a href="/insurance">Insurance</a></li>
           <li><a href="/investment">Investment</a></li>
-          <li><a href="/contact">Contact</a></li> 
+          <li><a href="/contact">Contact Us</a></li> 
         </ul>
       </div>
     );
@@ -70,7 +69,7 @@ var Centerpiece = React.createClass({
   render: function() {
     return (
       <div className="centerpiece-section">
-        <img src="/img/cp-image.png" alt="Centerpiece" />
+        <img src="img/cp-image.png" alt="Centerpiece" />
       </div>
     );
   }
@@ -80,7 +79,7 @@ var CPWidget = React.createClass({
   render: function() {
     return (
       <div className="cp-widget-section">
-        <h1>What is 3IS?</h1>
+        <h1>What is 3"I"S?</h1>
         <ul>
           <li><a href="/income-tax">Income Tax</a></li>
           <li><a href="/insurance">Insurance</a></li>
@@ -95,7 +94,7 @@ var CPBlurb = React.createClass({
   render: function() {
     return (
       <div className="cp-blurb-section">
-        <h3>At 3IS we believe It does not matter which "I" your start with, the other 2 are waiting for you </h3>
+        <h3>At 3IS we believe that it does not matter which "I" your start with, the other 2 are waiting for you </h3>
       </div>
     );
   }
@@ -106,7 +105,7 @@ var ColumnLeft = React.createClass({
     return (
       <div className="column-left-section">
         <h3>Income Tax </h3>
-        <p>3IS provides you everything you need from licensing, training, software, tools and ongoing support to build a successful full service Income tax preparation business. 3IS creates a win-win situation where everyone is a winner. Everything you need to compete with national brands and capture market share from top competitors is provided to you for absolutely no costs. Just promise us you will work hard and smart to be the best in your market so we can celebrate our success together.</p>
+        <p>3IS provides you everything you need from licensing, training, software, tools and ongoing support to build a successful full service Income Tax preparation business. 3IS creates a win-win situation where everyone is a winner. Everything you need to compete with national brands and capture market share from top competitors is provided to you for absolutely no costs. Just promise us you will work hard and smart to be the best in your market so we can celebrate our success together.</p>
         <a href="/income-tax">More Info</a>
       </div>
     );
@@ -142,7 +141,7 @@ var OurStory = React.createClass({
     return (
       <div className="our-story-section">
         <h3>Our Company</h3>
-        <p>(3IS) Management team has extensive managerial and technical experience in income tax, insurance and investment services. Recognizing the needs of the financial services industry and short comings of other service providers we are continually finding new  innovative ways to respond to market demands and allow our affiliates and licensees a viable , reasonable and profitable alternative to an archaic system that only rewords top management and is irreverent to clients and licensees.</p>
+        <p>The 3IS Management team has extensive managerial and technical experience in income tax, insurance and investment services. Recognizing the needs of the financial services industry and short comings of other service providers we are continually finding new  innovative ways to respond to market demands and allow our affiliates and licensees a viable , reasonable and profitable alternative to an archaic system that only rewords top management and is irreverent to clients and licensees.</p>
         <p>3IS aims to creating a win-win situation with all parties involved in all transactions between 3IS and licensees, 3IS and clients, and licensees and clients.  </p>
         <h3>Our Colleagues (licensees)</h3>
         <p>We are actively looking for motivated entrepreneurs who are looking for mutually beneficial situations to build a successful financial services business, Increase revenue for their existing financial services business and are eagerly looking to grow and expand.</p>
@@ -187,7 +186,7 @@ var Insurance = React.createClass({
           <li><p>Free help with license preparation</p></li>
           <li><p>Free training on products, closing the sale and industry software </p></li>
           <li><p>Free ongoing product support </p></li>
-          <li><p>Free ongoing underwriting or underwriting support</p></li>
+          <li><p>Free ongoing underwriting support</p></li>
           <li><p>Free forms, manuals, and disclosures</p></li>
           <li><p>Free Customized office plan</p></li>
           <li><p>Free Marketing training </p></li>
@@ -214,13 +213,14 @@ var Investment = React.createClass({
           <li><p>Free help with license preparation and completion of complicated application process  </p></li>
           <li><p>Free training on individual, group and commercial products </p></li>
           <li><p>Free ongoing updates on the latest changes in the industry and best new products for your clients </p></li>
-          <li><p>Free ongoing product support Free ongoing underwriting or underwriting support </p></li>
+          <li><p>Free ongoing product support </p></li>
+          <li><p>Free ongoing underwriting support </p></li>
           <li><p>Free forms, manuals, and disclosures  </p></li>
           <li><p>Free Customized office plan</p></li>
           <li><p>Free Marketing training </p></li>
           <li><p>Free branding </p></li>
           <li><p>Free advertising templates and tools </p></li>
-          <li><p>Access to   numerous platforms and of investment  companies and products to cover all your client needs and specific circumstances</p></li>
+          <li><p>Access to numerous platforms, investment companies, and products to cover all your client needs and specific circumstances</p></li>
           <li><p>Brokerage structure allowing you up to 95% commission plus bonuses and incentives No minimum production is required to be a licensee... build your business as slow or as fast as you see fit</p></li>
         </ul>
         <p>We hope that you are interested to know more about this unique opportunity. Please complete this contact information form and we will get back to you to give you all the details.</p>
@@ -246,7 +246,7 @@ var Contact = React.createClass({
             <input name="businessaddress" size="30" type="text" />
             Phone Number:
             <input name="email" size="30" type="number" /> 
-            Your email:
+            Email Address:
             <input name="email" size="30" type="text" />
             Do you currently offer Income Tax Services?
             <input type="checkbox" name="question1" value="yesIncomeTax" />

@@ -1,11 +1,16 @@
 {
-  "name": "react-tutorial",
+  "name": "3iscorp",
   "version": "0.0.0",
-  "description": "Code from the React tutorial.",
+  "description": "repository for 3iscorp website",
   "main": "server.js",
   "dependencies": {
     "body-parser": "^1.4.3",
-    "express": "^4.4.5"
+    "express": "^4.4.5",
+    "babel": "5.8.21",
+    "babel-core": "5.8.22",
+    "babel-loader": "5.3.2",
+    "babel-runtime": "5.8.20",
+    "react": "0.13.3"
   },
   "devDependencies": {},
   "scripts": {
@@ -14,7 +19,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/reactjs/react-tutorial.git"
+    "url": "https://github.com/idcwebmaster/3iscorp.git"
   },
   "keywords": [
     "react",
@@ -22,11 +27,11 @@
     "comment",
     "example"
   ],
-  "author": "petehunt",
+  "author": "marcosomo",
   "bugs": {
-    "url": "https://github.com/reactjs/react-tutorial/issues"
+    "url": "https://github.com/idcwebmaster/3iscorp/issues"
   },
-  "homepage": "https://github.com/reactjs/react-tutorial",
+  "homepage": "https://github.com/idcwebmaster/3iscorp",
   "engines" : {
     "node" : "0.12.x"
   }
